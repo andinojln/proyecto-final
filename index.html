@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">>/;</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">Sobre mí</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#cv" onclick="seleccionar()">Currículum</a></li>
+                    <li><a href="#briefcase" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="responsive-nav" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="/img/hero.png" alt="Foto de perfil">
+            </div>
+            <h1>Jhon Smith</h1>
+            <h2>Desarrollador Web - Front end</h2>
+            <div class="social-media">
+                <a href="#" class="fa"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="tw"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="in"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#" class="li"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="gi"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-aboutme">
+            <h2>Sobre mí</h2>
+            <p>
+                <span>Hola, soy Jhon Smith.</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit beatae veniam blanditiis hic cupiditate quibusdam amet, debitis voluptates illo labore unde, pariatur assumenda odit! Autem, sit? Esse eaque nisi vero!
+            </p>
+            <div class="line">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            16-02-1980
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            949 502 8609
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            jhonsmith@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.sjhon.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            9414 North 25th Avenue
+                        </li>
+                        <li>
+                            <strong>Disponibilidad</strong>
+                            <span>Full Time</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /// -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="interest-container">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Ejercico</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografia</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Código</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-sharp fa-solid fa-drum"></i>
+                            <span>Batería</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Apple</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Autos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="content-skills">
+            <h2>Skills</h2>
+            <div class="line">
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="progress javascript">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress html-css">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & Github</span>
+                        <div class="skill-bar">
+                            <div class="progress git-github">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="skill-bar">
+                            <div class="progress bootstrap">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="skill-bar">
+                            <div class="progress wordpress">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /// -->
+                <div class="col">
+                    <h3>Professional skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="skill-bar">
+                            <div class="progress comunication">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="skill-bar">
+                            <div class="progress teamwork">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="skill-bar">
+                            <div class="progress creativity">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="skill-bar">
+                            <div class="progress dedication">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="skill-bar">
+                            <div class="progress proyect-m">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CV -->
+    <section id="cv" class="cv">
+        <div class="content-cv">
+            <h2>Currículum</h2>
+            <div class="line">
+                <div class="col left">
+                    <h3>Educación</h3>
+                    <div class="item lft">
+                        <h4>Arte y multimedia</h4>
+                        <span class="uni">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-i">
+                            <div class="circle-i"></div>
+                        </div>
+                    </div>
+                    <div class="item lft">
+                        <h4>Arte y multimedia</h4>
+                        <span class="uni">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-i">
+                            <div class="circle-i"></div>
+                        </div>
+                    </div>
+                    <div class="item lft">
+                        <h4>Arte y multimedia</h4>
+                        <span class="uni">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-i">
+                            <div class="circle-i"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /// -->
+                <div class="col right">
+                    <h3>Experiencia</h3>
+                    <div class="item rgt">
+                        <h4>Front end developer</h4>
+                        <span class="uni">Empresa</span>
+                        <span class="date">2009 - 2013</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-d">
+                            <div class="circle-d"></div>
+                        </div>
+                    </div>
+                    <div class="item rgt">
+                        <h4>Front end developer</h4>
+                        <span class="uni">Empresa</span>
+                        <span class="date">2009 - 2013</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-d">
+                            <div class="circle-d"></div>
+                        </div>
+                    </div>
+                    <div class="item rgt">
+                        <h4>Front end developer</h4>
+                        <span class="uni">Empresa</span>
+                        <span class="date">2009 - 2013</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, fugit nostrum veniam, laboriosam omnis inventore unde quia, incidunt amet delectus illum esse? Sunt, quibusdam. Facere amet placeat inventore quo!
+                        </p>
+                        <div class="connector-d">
+                            <div class="circle-d"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BRIEFCASE -->
+    <section id="briefcase" class="briefcase">
+        <div class="content-briefcase">
+            <h2>Portafolio</h2>
+            <div class="gallery">
+                <div class="proyect">
+                    <img src="/img/p1.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="/img/p2.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="/img/p3.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="/img/p4.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="/img/p5.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="/img/p6.jpg" alt="Demostración de diseño web y creación en una netbook">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="content-contact">
+            <h2>Contacto</h2>
+            <div class="line">
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- /// -->
+                <div class="col">
+                    <img src="/img/ubi.png" alt="Imágen de una ubicación">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2397 - 4334434
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: jhonsmith@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="top">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social-media">
+            <a href="#" class="fa"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="tw"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="in"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#" class="li"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="gi"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+    </footer>
+    <!-- SCRIPT -->
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
